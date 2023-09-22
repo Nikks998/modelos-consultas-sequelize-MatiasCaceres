@@ -5,9 +5,7 @@
     <link rel='stylesheet' href='/css/style.css' />
   </head>
   <body>
-    <figure>
-      <img src="/img/logo-DH.png" alt="Logo Digital House">
-    </figure>
+    <%- include('partials/logo') %>
     <h1><%= title %></h1>
     <p>Bienvenidos a <%= title %></p>
     <a href="/movies">Listado de peliculas</a>
@@ -15,5 +13,7 @@
     <a href="/movies/recommended">Peliculas Recomendadas</a>
     <hr>
     <a href="/genres">Listado de Generos de peliculas</a>
+    <hr>
+    <a href="/actors">Listado de Actores</a>  
   </body>
 </html>

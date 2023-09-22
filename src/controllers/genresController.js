@@ -1,6 +1,7 @@
 const { Genre } = require("../database/models");
 
 module.exports = {
+    
     list: (req, res) => {
         Genre.findAll().then((genres) => {
             return res.render("genresList", {
