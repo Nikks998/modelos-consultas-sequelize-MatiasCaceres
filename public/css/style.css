@@ -9,7 +9,9 @@ body {
 }
 
 a {
+  display: block;
   color: #00B7FF;
+  margin: 10px 0;
 }
 img{
   width: 100%;
